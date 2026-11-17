@@ -1,4 +1,7 @@
 *
 !/.gitignore
-!/README.md
+!/assets/
+/assets/*
 !/README.en.md
+!/README.md
+!/assets/colecao-e-decks.svg

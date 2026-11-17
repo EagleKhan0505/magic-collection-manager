@@ -1,29 +1,32 @@
-# Organizador Magic
+# Magic Collection Manager
 
-**Turning my Magic card collection into a useful resource for search, organization and deck decisions.**
+My Magic collection created a practical problem: I could remember what a card did without remembering its name. I also needed to know which decks used each card and which cards I already owned might fit another deck.
 
-[Português](README.md) · [Gustavo Amaral](https://github.com/EagleKhan0505)
+I started by organizing the collection in a spreadsheet. From there, I developed an organizer connected to the Scryfall API, combining my personal inventory with searchable card information.
 
-## Motivation
+[Português](README.md) · [Portfolio](https://github.com/EagleKhan0505)
 
-I wanted to search my collection by what a card does, beyond its name, and see which decks already use it. I structured a spreadsheet as a database and connected it to the Scryfall API to bring collection records and card information together.
+![Illustrative collection and deck workflow, with Portuguese labels](assets/colecao-e-decks.svg)
 
-## Scope
+*Illustrative diagram based on the described features. It is not an application screenshot or a copy of my actual inventory.*
 
-- Structured organization of my personal collection.
-- Scryfall API integration for card information.
-- Search by card text as well as by name.
-- Visibility into the decks where a card is used.
-- An AI-assisted decision layer under development, intended to help evaluate other decks where a card could fit.
+## Starting with the cards I own
 
-## My contribution
+| When I want to… | The organizer brings together… |
+| --- | --- |
+| Find a card without remembering its name | Card-text search alongside name search. |
+| Look up a card's information | Scryfall integration connected to the collection database. |
+| See where a card is used | Associations between cards and their decks. |
+| Consider changes to a deck | Collection and deck context for an AI decision-support layer. |
 
-I defined the need, organized the database and developed the integration and search workflow with AI assistance. The project connects a personal interest with structured data, API integration and decision support.
+An illustrative search would look for an effect such as **“whenever a creature dies”**. The next step is understanding which decks already use those cards and where another combination might be useful. This example describes the need behind the project; it is not a captured search result.
 
-## Current stage
+## From organization to a decision
 
-An evolving personal project. Collection organization, integration, search and deck lookup are part of the described workflow; AI recommendations remain under development.
+I also want to answer: **which of my decks would be a good fit for this card?** That is the purpose of the AI decision-support layer I am developing. It builds on collection and deck context, while the final choice remains mine.
 
-**Resources:** spreadsheet database, Scryfall API, text search and deck organization.
+My main contribution was turning a personal need into queryable information: the collection, card information and relationships with decks. An external data source reduces manual entry and provides a foundation for exploring recommendations.
 
-The implementation and personal collection data are private. This is an independent personal project, with no affiliation to Magic: The Gathering or Scryfall.
+**Stage:** an evolving personal project. This presentation reflects the spreadsheet, Scryfall integration, text search and deck tracking described from personal use. The AI layer is in development. The current application is in another environment, so this page does not yet include a verifiable interface capture or executable demo.
+
+The full application and collection inventory are private.
