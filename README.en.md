@@ -1,5 +1,9 @@
 # Magic Collection Manager
 
+**In development**<br>
+Earliest available record: October 29, 2026 · Last application update: unconfirmed<br>
+<sub>Presentation updated on November 17, 2026.</sub>
+
 My Magic collection created a practical problem: I could remember what a card did without remembering its name. I also needed to know which decks used each card and which cards I already owned might fit another deck.
 
 I started by organizing the collection in a spreadsheet. From there, I developed an organizer connected to the Scryfall API, combining my personal inventory with searchable card information.
@@ -8,7 +12,7 @@ I started by organizing the collection in a spreadsheet. From there, I developed
 
 ![Illustrative collection and deck workflow, with Portuguese labels](assets/colecao-e-decks.svg)
 
-*Illustrative diagram based on the described features. It is not an application screenshot or a copy of my actual inventory.*
+*Illustrative project diagram. It is not an application screenshot or a copy of my actual inventory.*
 
 ## Starting with the cards I own
 
@@ -27,6 +31,6 @@ I also want to answer: **which of my decks would be a good fit for this card?** 
 
 My main contribution was turning a personal need into queryable information: the collection, card information and relationships with decks. An external data source reduces manual entry and provides a foundation for exploring recommendations.
 
-**Stage:** an evolving personal project. This presentation reflects the spreadsheet, Scryfall integration, text search and deck tracking described from personal use. The AI layer is in development. The current application is in another environment, so this page does not yet include a verifiable interface capture or executable demo.
+**Stage:** in development. The project combines a collection spreadsheet, Scryfall integration, card-text search and deck relationships. The AI decision-support layer is still in development. A public interface demonstration is not yet available.
 
 The full application and collection inventory are private.

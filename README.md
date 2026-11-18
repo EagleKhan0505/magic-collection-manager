@@ -1,5 +1,9 @@
 # Organizador Magic
 
+**Em desenvolvimento**<br>
+Primeiro registro disponível: 29/10/2026 · Última atualização do aplicativo: não confirmada<br>
+<sub>Apresentação atualizada em 17/11/2026.</sub>
+
 Minha coleção de Magic trouxe um problema bem concreto: eu podia lembrar do que uma carta fazia e, ainda assim, não lembrar do nome dela. Também precisava saber onde estava usando cada carta e quais opções da minha própria coleção poderiam ajudar em outro deck.
 
 Comecei pela organização da coleção em uma planilha. A partir dela, desenvolvi um organizador conectado à API do Scryfall, combinando o registro pessoal das cartas com informações que ajudam a encontrá-las pelo conteúdo.
@@ -8,7 +12,7 @@ Comecei pela organização da coleção em uma planilha. A partir dela, desenvol
 
 ![Esquema ilustrativo: coleção, Scryfall, busca por texto, decks e apoio à decisão](assets/colecao-e-decks.svg)
 
-*Esquema ilustrativo a partir das funções descritas. Não é uma tela da aplicação nem uma reprodução da minha coleção.*
+*Esquema ilustrativo do projeto. Não é uma tela da aplicação nem uma reprodução da minha coleção.*
 
 ## A coleção como ponto de partida
 
@@ -27,6 +31,6 @@ Quero que a base também ajude a responder: **em qual dos meus decks esta carta 
 
 A parte central da minha contribuição foi estruturar uma necessidade do meu uso pessoal em dados consultáveis: coleção, informações das cartas e relações com decks. A integração com uma fonte externa evita que todo esse conteúdo precise ser preenchido manualmente e cria uma base para explorar recomendações.
 
-**Estágio:** projeto pessoal em evolução. A apresentação descreve a planilha, a integração com o Scryfall, a busca por texto e o acompanhamento dos decks relatados no uso pessoal. A camada de IA permanece em desenvolvimento. Como a versão atual está em outro ambiente, esta página ainda não inclui captura verificável da interface nem demonstração executável.
+**Estágio:** em desenvolvimento. A base reúne a coleção em planilha, a integração com o Scryfall, a busca por texto e os vínculos com decks. A camada de apoio à decisão por IA segue em desenvolvimento. Uma demonstração pública da interface ainda não está disponível.
 
 O código e o inventário completo da coleção não fazem parte deste repositório público.
